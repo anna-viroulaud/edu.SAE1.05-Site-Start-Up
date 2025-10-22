@@ -1,0 +1,17 @@
+.content__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 5rem;
+  gap: 2rem;
+}
+
+.content__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0;
+}

@@ -1,0 +1,33 @@
+/* Footer_07_L1 */
+
+.footer {
+    color: var(--clr-purple);
+    background-color: var(--clr-white);
+    font-family: var(--ff-sans);
+    margin: 1rem;
+    padding: 1rem 0 2rem;
+  }
+  
+  .footer__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer__item {
+    display: flex;
+    justify-self: center;
+    color: var(--clr-purple);
+    text-decoration: none;
+  }
+  
+  .footer__desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    padding: 0;
+  }
+  

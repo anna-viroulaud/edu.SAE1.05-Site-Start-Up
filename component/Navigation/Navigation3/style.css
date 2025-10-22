@@ -1,0 +1,29 @@
+.nav__3 {
+    color: var(--clr-white);
+    background-color: var(--clr-blue);
+    font-family: var(--ff-sans);
+    margin: 1rem;
+}
+
+.nav__3-logo {
+    margin-right: auto;
+}
+
+.nav__3-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav__3-item {
+    display: flex;
+    justify-self: center;
+    color: var(--clr-white);
+    text-decoration: none;
+}
+
+.nav__3-item:hover {
+    color: var(--clr-pink);
+}

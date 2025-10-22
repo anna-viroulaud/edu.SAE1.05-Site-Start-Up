@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap');
+
+:root {
+  --clr-white: #ffffff;
+  --clr-heading: #1e0e62;
+
+  --background-dark: #2f1893;
+  --clr-mocha: #7e685d;
+  --clr-mocha-dark: rgb(90, 66, 46);
+}
+
+ul{
+    padding: 0rem;
+}
+
+
+.landing-site {
+ 
+  margin-top: 6rem;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 3.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.375rem;
+  color: var(--clr-mocha);
+}
+
+.landing-site2 {
+  font-family: "Playwrite VN", serif;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.375rem;
+  color: var(--clr-mocha);
+}
+
+body {
+  background-image: url('/assets/fondlanding.PNG');
+  background-size: cover; /* Ajuste pour couvrir toute la fenêtre */
+  background-position: center; /* Centre l'image */
+  background-repeat: no-repeat; /* Empêche la répétition */
+  padding-top: 5rem;
+  min-height: 100vh; /* S'assure que le body couvre toute la fenêtre */
+  margin: 0; /* Supprime les marges par défaut */
+  display: flex; /* Facilite l'alignement */
+  flex-direction: column;
+  justify-content: flex-start; /* Garde le contenu aligné en haut */
+  align-items: center; /* Centre horizontalement */
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 3rem;
+  list-style: none;
+}
+
+.btn-call-to-action {
+  padding: 1rem 2rem 1rem 2rem;
+  font-family: "DM sans", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem;
+  cursor: pointer;
+  background: #25dac5;
+  box-shadow: 0 0 0.3125rem #25dac5, 0 0 1.5625rem #25dac5;
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 6rem;
+  border: none;
+  color: var(--clr-white);
+  text-decoration: none;
+ 
+}
+
+.btn-call-to-action-blue {
+  padding: 0.8rem 3rem;
+  margin: 2rem 0;
+  background: var(--clr-mocha);
+  box-shadow: 0 0 0 #333230, 0 0 0 #333230;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.btn-call-to-action-blue:hover {
+  box-shadow: 0 0 0.3125rem #333230, 0 0 1.5625rem #333230;
+}

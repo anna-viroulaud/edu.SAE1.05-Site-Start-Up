@@ -1,0 +1,120 @@
+.hero__3 {
+    display: block;
+    font-family: var(--ff-sans);
+    color: var(--clr-white);
+    text-align: center;
+    background-color: var(--clr-blue);
+    background-image: linear-gradient(
+        90deg,
+        rgba(19, 67, 77, 0.7) 0%,
+        rgba(86, 22, 91, 0.7) 100%
+    ),
+    var(--bg-hero);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero__3-title {
+    display: block;
+    margin: 0 auto;
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: 2.6px;
+    color: var(--clr-white);
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.hero__3-desc {
+    display: block;
+    font-size: 1.375rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--clr-white);
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 3rem;
+}
+
+.hero__3-desc2 {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--clr-gray);
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 4rem;
+}
+
+.hero__3-nav__2 {
+    display: block;
+    color: var(--clr-white);
+    background-color: var(--clr-blue);
+    font-family: var(--ff-sans);
+    margin: 1rem;
+}
+
+.hero__nav__2-logo {
+    display: block;
+    margin-right: auto;
+}
+
+.hero__nav__2-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.hero__nav__2-item {
+    display: flex;
+    justify-self: center;
+    color: var(--clr-white);
+    text-decoration: none;
+}
+
+.hero__nav__2-item:hover {
+    color: var(--clr-cyan);
+}
+
+.hero__nav__2-buton {
+    display: inline-block;
+    color: var(--clr-white);
+    background-color: var(--clr-cyan);
+    border-radius: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.hero__nav__2-buton-2 {
+    display: inline-block;
+    color: var(--clr-white);
+    background-color: var(--clr-cyan);
+    border-radius: 2rem;
+    border: none;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+}
+
+.hero__nav__2-buton-2:hover {
+    background-color: var(--clr-pink);
+}
+
+.hero__nav__2-buton:hover {
+    background-color: var(--clr-pink);
+}
+
+.hero__3-email {
+    background-color: var(--clr-white);
+    width: 210px;
+    padding: 10px 20px;
+    border: solid rgb(180, 169, 245, 30%) 0.2rem;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1rem;
+}

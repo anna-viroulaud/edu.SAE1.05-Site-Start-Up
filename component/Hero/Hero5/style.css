@@ -1,0 +1,123 @@
+.hero__5 {
+    display: block;
+    margin: 2rem auto;
+    padding: 0;
+    font-family: var(--ff-sans);
+    color: var(--clr-white);
+    text-align: center;
+    background-color: var(--bg-hero);
+    background-image: linear-gradient(
+        90deg,
+        rgba(19, 67, 77, 0.7) 0%,
+        rgba(86, 22, 91, 0.7) 100%
+    ),
+    var(--bg-hero);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero__5-title {
+    display: block;
+    margin: 0 auto;
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: 2.6px;
+    color: var(--clr-white);
+}
+
+.hero__5-desc {
+    display: block;
+    max-width: 50ch;
+    margin: 2rem auto;
+    font-size: 1.375rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--clr-white);
+}
+
+.hero__5-nav__9 {
+    display: block;
+    color: var(--clr-white);
+    background-color: var(--clr-transparent);
+    font-family: var(--ff-sans);
+    margin: 1rem;
+}
+
+.hero__5-nav__9-logo {
+    display: block;
+    margin-right: auto;
+}
+
+.hero__5-nav__9-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: auto;
+}
+
+.hero__5-nav__9-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.hero__5-nav__9-item {
+    display: flex;
+    justify-self: center;
+    gap: 3rem;
+}
+
+.hero__5-nav__9-item:hover {
+    color: var(--clr-cyan);
+}
+
+.hero__5-nav__9-buton {
+    display: inline-block;
+    color: var(--clr-white);
+    background-color: var(--clr-pink);
+    border-radius: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+    border: 0rem;
+}
+
+.hero__5-nav__9-buton:hover {
+    background-color: var(--clr-blue);
+}
+
+.hero__5-flex {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    padding-bottom: 4rem;
+}
+
+.hero__5-email {
+    background-color: var(--clr-transparent);
+    width: 210px;
+    padding: 10px 20px;
+    padding-left: 1.5rem;
+    margin-right: 1.5rem;
+    border: solid rgb(180, 169, 245, 30%) 0.2rem;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.hero__5-desc-2 {
+    display: block;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--clr-white);
+}

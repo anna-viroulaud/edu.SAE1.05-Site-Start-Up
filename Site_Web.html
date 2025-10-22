@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Starter Start-Up SAé1.05</title>
+  <link rel="stylesheet" href="./css_site/base.css" />
+  <link rel="icon" href="./assets/logo.png" type="image/png" />
+</head>
+
+<body>
+    <section class="nav__14"></section>
+    <script type="module">
+      import { Navigationsite14Data } from "./data_site/NavigationData/Navigationsite14Data.js";
+      import { Navigation14 } from "./component_site/Navigation/Navigation14/script.js";
+      Navigation14.render(".nav__14", Navigationsite14Data);
+    </script>
+
+    <section id="hero" class="hero"></section>
+    <script type="module">
+      import { Hero1Data } from "./data_site/HeroData/Hero1Data.js";
+      import { Hero1 } from "./component_site/Hero/Hero1/script.js";
+      Hero1.render("#hero", Hero1Data);
+    </script>
+
+    <section id="showcase"></section>
+    <script type="module">
+      import { Showcase1Data } from "./data_site/ShowcaseData/Showcase1Data.js";
+      import { Showcase1 } from "./component_site/Showcase/Showcase1/script.js";
+      Showcase1.render("#showcase", [Showcase1Data]);
+    </script>
+
+    <section id="content3" class="content__3"></section>
+    <script type="module">
+      import { Content3Data } from "./data_site/ContentData/Content3Data.js";
+      import { Content3 } from "./component_site/Content/Content3/script.js";
+      Content3.render("#content3", Content3Data);
+    </script>
+
+    <section id="showcase_2"></section>
+    <script type="module">
+      import { Showcase2Data } from "./data_site/ShowcaseData/Showcase2Data.js";
+      import { Showcase1 } from "./component_site/Showcase/Showcase1/script.js";
+      Showcase1.render("#showcase_2", [Showcase2Data]);
+    </script>
+            
+
+    <section id="content__7"></section>
+    <script type="module">
+      import { Content7Data } from "./data_site/ContentData/Content7Data.js";
+      import { Content7 } from "./component_site/Content/Content7/script.js";
+      Content7.render("#content__7", Content7Data);
+    </script>
+
+    <section id="ecommerce__1" class="ecommerce__1"></section>
+    <script type="module">
+      import { Ecommerce1Data } from "./data_site/EcommerceData/Ecommerce1Data.js";
+      import { Ecommerce1 } from "./component_site/Ecommerce/Ecommerce1/script.js";
+      Ecommerce1.render("#ecommerce__1", Ecommerce1Data);
+    </script>
+
+    <section id="feature1" class="feature1"></section>
+    <script type="module">
+      import { Feature1Data } from "./data_site/FeatureData/Feature1Data.js";
+      import { Feature1 } from "./component_site/Feature/Feature1/script.js";
+      Feature1.render("#feature1", Feature1Data);
+    </script>
+
+</body>
+  
+<footer>
+
+  <section id="hero__5" class="hero__5"></section>
+  <script type="module">
+    import { Hero5Data } from "./data_site/HeroData/Hero5Data.js";
+    import { Hero5 } from "./component_site/Hero/Hero5/script.js";
+    Hero5.render("#hero__5", Hero5Data);
+  </script> 
+
+    <section class="footer"></section>
+    <script type="module">
+      import { Footer1Data } from "./data_site/FooterData/Footer1Data.js";
+      import { Footer1 } from "./component_site/Footer/Footer1/script.js";
+      Footer1.render(".footer", Footer1Data);
+    </script>
+
+</footer>
+
+</html>

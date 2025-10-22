@@ -1,0 +1,56 @@
+@import './reset.css';
+@import './variables.css';
+
+@import '../component/style.css'; 
+@import '../component/Content/Content9/style.css'; 
+
+@import '../component/Showcase/Showcase1/style.css';
+
+
+@import '../component/Navigation/Navigation1/style.css';
+@import '../component/Navigation/Navigation2/style.css'; 
+@import '../component/Navigation/Navigation3/style.css'; 
+@import '../component/Navigation/Navigation4/style.css'; 
+@import '../component/Navigation/Navigation5/style.css'; 
+@import '../component/Navigation/Navigation6/style.css'; 
+@import '../component/Navigation/Navigation7/style.css'; 
+@import '../component/Navigation/Navigation8/style.css'; 
+@import '../component/Navigation/Navigation9/style.css'; 
+@import '../component/Navigation/Navigation10/style.css'; 
+@import '../component/Navigation/Navigation12/style.css'; 
+@import '../component/Navigation/Navigation13/style.css'; 
+@import '../component/Navigation/Navigation14/style.css'; 
+@import '../component/Navigation/Navigation15/style.css'; 
+@import '../component/Navigation/Navigation16/style.css'; 
+
+@import '../component/Hero/Hero1/style.css';
+@import '../component/Hero/Hero2/style.css';
+@import '../component/Hero/Hero3/style.css';
+@import '../component/Hero/Hero4/style.css';
+@import '../component/Hero/Hero5/style.css';
+
+@import '../component/Footer/Footer1/style.css';
+@import '../component/Footer/Footer2/style.css';
+@import '../component/Content/Content1/style.css';
+@import '../component/Content/Content2/style.css';
+@import '../component/Content/Content3/style.css';
+@import '../component/Content/Content4/style.css';
+@import '../component/Content/Content5/style.css';
+@import '../component/Content/Content6/style.css';
+@import '../component/Content/Content7/style.css';
+@import '../component/Content/Content8/style.css';
+
+@import '../component/Pricing/Pricing1/style.css';
+@import '../component/Pricing/Pricing2/style.css';
+
+@import '../component/Ecommerce/Ecommerce1/style.css';
+@import '../component/Ecommerce/Ecommerce2/style.css';
+@import '../component/Ecommerce/Ecommerce3/style.css';
+
+@import '../component/Feature/Feature1/style.css';
+@import '../component/Feature/Feature2/style.css';
+
+@import '../component/CallToAction/CallToAction1/style.css';
+@import '../component/CallToAction/CallToAction2/style.css';
+@import '../component/CallToAction/CallToAction3/style.css';
+@import '../component/CallToAction/CallToAction4/style.css';

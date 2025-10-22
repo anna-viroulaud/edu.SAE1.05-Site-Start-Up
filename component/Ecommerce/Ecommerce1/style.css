@@ -1,0 +1,105 @@
+.ecommerce {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  padding: 2rem 0 5rem;
+  font-family: var(--ff-sans);
+  color: var(--clr-purple);
+  text-align: start;
+  background-color: var(--bg-hero);
+  background-image: linear-gradient(90deg, rgba(19, 67, 77, 0.7) 0%, rgba(86, 22, 91, 0.7) 100%), var(--bg-hero);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ecommerce__title,
+.ecommerce__title-2 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 2.6px;
+  padding-left: 3rem;
+  width: 30rem;
+}
+
+.ecommerce__title {
+  color: var(--clr-purple);
+}
+
+.ecommerce__title-2 {
+  color: var(--clr-white);
+}
+
+.ecommerce__card {
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 2rem;
+  width: 50rem;
+  height: 22rem;
+}
+
+.ecommerce__card-2 {
+  background-image: url("../../../assets/Space-Background.png");
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 22rem;
+  height: 22rem;
+}
+
+.ecommerce__card-h2 {
+  text-transform: uppercase;
+  color: var(--clr-gray);
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 2.6px;
+  padding: 3rem 0 1rem 3rem;
+}
+
+.ecommerce__card-button,
+.ecommerce__card-button-2 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 2rem;
+  padding: 1.5rem 2rem 1rem;
+  margin: 3rem;
+  box-shadow: rgba(0, 3, 2, 0.16);
+}
+
+.ecommerce__card-button {
+  color: var(--clr-white);
+  background-color: var(--clr-blue);
+  margin-bottom: 4rem;
+  margin-top: 3.5rem;
+}
+
+.ecommerce__card-button:hover {
+  background-color: #f5f5f5;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  color: #295bff;
+}
+
+.ecommerce__card-button-2 {
+  color: var(--clr-purple);
+  background-color: var(--clr-white);
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.ecommerce__card-button-2:hover {
+  background-color: #f5f5f5;
+  color: #295bff;
+}
+
+.ecommerce__card-image-size {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,32 @@
+/* Footer_2 */
+
+.footer__2 {
+  color: var(--clr-white);
+  background-color: var(--clr-purple);
+  font-family: var(--ff-sans);
+  margin: 1rem;
+  padding: 1rem 0 2rem;
+}
+
+.footer__2-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.footer__2-item {
+  display: flex;
+  justify-self: center;
+  color: var(--clr-white);
+  text-decoration: none;
+}
+
+.footer__2-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-white);
+  padding: 0;
+}

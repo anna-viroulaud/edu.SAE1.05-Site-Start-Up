@@ -1,0 +1,18 @@
+@import "./reset.css";
+@import "./variables.css";
+
+@import "../component_site/Navigation/Navigation14/style.css";
+
+@import "../component_site/Hero/Hero1/style.css";
+@import "../component_site/Hero/Hero5/style.css";
+
+@import "../component_site/Feature/Feature1/style.css";
+
+@import "../component_site/Footer/Footer1/style.css";
+
+@import "../component_site/Content/Content7/style.css";
+@import "../component_site/Content/Content3/style.css";
+
+@import "../component_site/Ecommerce/Ecommerce1/style.css";
+
+@import "../component_site/Showcase/Showcase1/style.css";

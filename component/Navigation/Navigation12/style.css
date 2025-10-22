@@ -1,0 +1,34 @@
+.nav__12 {
+    color: var(--clr-white);
+    background-color: var(--clr-purple);
+
+    font-family: var(--ff-sans);
+    margin: 1rem;
+}
+
+.nav__12-logo{
+    margin-right: auto;
+}
+
+.nav__12-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav__12-item{
+    display: flex;
+    justify-self: center;
+    color: var(--clr-white);
+    text-decoration: none;
+}
+
+.nav__12-buton{
+    background-color: var(--clr-purple);
+    border: solid rgb(180, 169, 245, 30%) 0.2rem;
+    border-radius: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}

@@ -1,0 +1,50 @@
+.nav__13 {
+    color: var(--clr-white);
+    background-color: var(--clr-purple);
+
+    font-family: var(--ff-sans);
+    margin: 1rem;
+}
+
+.nav__13-logo{
+    margin-right: auto;
+}
+
+.nav__13-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav__13-item{
+    display: flex;
+    justify-self: center;
+    color: var(--clr-white);
+    text-decoration: none;
+}
+
+.nav__13-buton{
+    background-color: var(--clr-purple);
+    border: solid rgb(180, 169, 245, 30%) 0.2rem;
+    border-radius: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.nav__13-search {
+    background-color: var(--clr-purple);
+    width: 210px;  /* Largeur du champ */
+    padding: 10px 20px;  /* Espacement intérieur */
+    border: solid rgb(180, 169, 245, 30%) 0.2rem;
+    border-radius: 20px;  /* Bord arrondi */
+    outline: none;  /* Supprime l'effet de focus par défaut */
+    font-size: 1rem;  /* Taille du texte */
+}
+
+.nav__13-search::placeholder {
+    color: rgb(180, 169, 245, 60%);  /* Couleur du texte placeholder */
+    font-style: italic;  /* Style italique */
+}
+

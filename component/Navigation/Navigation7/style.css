@@ -1,0 +1,65 @@
+.nav__7 {
+    color: var(--clr-white);
+    background-color: var(--clr-purple);
+
+    font-family: var(--ff-sans);
+    margin: 1rem;
+}
+
+.nav__7-logo{
+    margin-right: auto;
+}
+
+.nav__7-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav__7-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav__7-item{
+    display: flex;
+    justify-self: center;
+    color: var(--clr-white);
+    text-decoration: none;
+}
+
+.nav__7-buton{
+    color: var(--clr-blue);
+    background-color: var(--clr-transparant);
+    border: solid rgba(156, 156, 156, 0.3) 0.2rem;
+    border-radius: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.nav__7-search {
+    background-color: var(--clr-purple);
+    width: 210px;  /* Largeur du champ */
+    padding: 10px 20px;  /* Espacement intérieur */
+    border: solid rgb(180, 169, 245, 30%) 0.2rem;
+    border-radius: 20px;  /* Bord arrondi */
+    outline: none;  /* Supprime l'effet de focus par défaut */
+    font-size: 1rem;  /* Taille du texte */
+}
+
+.nav__7-search::placeholder {
+    color: rgb(180, 169, 245, 60%);  /* Couleur du texte placeholder */
+    font-style: italic;  /* Style italique */
+}
+
+.nav__7-item:hover {
+    color: var(--clr-cyan);
+}
+
