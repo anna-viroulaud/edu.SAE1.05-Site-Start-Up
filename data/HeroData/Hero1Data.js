@@ -25,7 +25,7 @@ let Hero1Data = [
       link: "#"
     },
     {
-      label: '<img src="../../assets/fa-search.svg" alt="Hero background" />',
+      label: '<img src="assets/fa-search.svg" alt="Hero background" />',
 
       link: "#"
     },

@@ -44,7 +44,7 @@
 }
 
 .ecommerce__card-2 {
-  background-image: url("../../../assets/Space-Background.png");
+  background-image: url("assets/Space-Background.png");
   border-radius: 1rem;
   display: flex;
   flex-direction: row;

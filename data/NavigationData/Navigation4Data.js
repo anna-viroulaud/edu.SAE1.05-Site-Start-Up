@@ -21,7 +21,7 @@ let Navigation4Data = [
       link: "#"
     },
     {
-      label: '<img src="../../assets/fa-search.svg" alt="Hero background" />',
+      label: '<img src="assets/fa-search.svg" alt="Hero background" />',
 
       link: "#"
     },
@@ -54,7 +54,7 @@ let Navigation4Data = [
       link: "#"
     },
     {
-      label: '<img src="../../assets/fa-behance.svg" alt="Hero background" />',
+      label: '<img src="assets/fa-behance.svg" alt="Hero background" />',
       link: "#"
     },
   ]

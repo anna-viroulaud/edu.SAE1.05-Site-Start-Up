@@ -4,7 +4,7 @@ let Ecommerce1Data = [
       subtitle: "Réalisez vos designs personnalisés",
       title: "Récupérez votre design",
       button: "Essayez dès maintenant",
-      image: '<img class="ecommerce__card-image-size" src="../../assets/ecommerce3.webp" alt="Hero background"/>',
+      image: '<img class="ecommerce__card-image-size" src="assets/ecommerce3.webp" alt="Hero background"/>',
     },
     card2: {
       subtitle: "Nos produits",

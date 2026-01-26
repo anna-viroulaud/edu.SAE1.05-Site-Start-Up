@@ -19,15 +19,15 @@ let Navigation14Data = [
         link: "#"
       },
       {
-        label: "<img src='../../assets/fa-google-plus.svg' alt='Hero background' />",
+        label: "<img src='assets/fa-google-plus.svg' alt='Hero background' />",
         link: "#"
       },
       {
-        label: "<img src='../../assets/fa-facebook-square.svg' alt='Hero background' />",
+        label: "<img src='assets/fa-facebook-square.svg' alt='Hero background' />",
         link: "#"
       },
       {
-        label: "<img src='../../assets/fa-twitter.svg' alt='Hero background'/>",
+        label: "<img src='assets/fa-twitter.svg' alt='Hero background'/>",
         link: "#"
       },
     ]

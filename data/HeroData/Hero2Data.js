@@ -22,17 +22,17 @@ let Hero2Data = [
       link: "#"
     },
     {
-      label: '<img src="../../assets/fa-dribbble.svg" alt="Hero background" />',
+      label: '<img src="assets/fa-dribbble.svg" alt="Hero background" />',
 
       link: "#"
     },
     {
-      label: '<img src="../../assets/fa-instagram.svg" alt="Hero background" />',
+      label: '<img src="assets/fa-instagram.svg" alt="Hero background" />',
 
       link: "#"
     },
     {
-      label: '<img src="../../assets/fa-behance.svg" alt="Hero background" />',
+      label: '<img src="assets/fa-behance.svg" alt="Hero background" />',
 
       link: "#"
     },

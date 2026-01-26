@@ -39,7 +39,7 @@ ul{
 }
 
 body {
-  background-image: url('/assets/fondlanding.PNG');
+  background-image: url('./assets/fondlanding.PNG');
   background-size: cover; /* Ajuste pour couvrir toute la fenêtre */
   background-position: center; /* Centre l'image */
   background-repeat: no-repeat; /* Empêche la répétition */
