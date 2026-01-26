@@ -178,3 +178,39 @@ body {
 
 /* small polish for paragraphs */
 p { margin: 0 0 1rem 0; color: #444; }
+
+/* Style for the two action list items */
+.button-container {
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.button-container li {
+  list-style: none;
+  flex: 1 1 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  border-radius: 12px;
+  background: #fbfdff;
+  border: 1px solid #e9eef6;
+  box-shadow: 0 8px 20px rgba(11,14,25,0.04);
+  min-width: 200px;
+  text-align: center;
+}
+
+.button-container li p { margin: 0.5rem 0 1rem 0; color: #555; }
+
+.button-container li .btn-call-to-action {
+  width: 100%;
+  max-width: 260px;
+}
+
+@media (max-width: 640px) {
+  .button-container { flex-direction: column; }
+  .button-container li { width: 100%; }
+}
