@@ -8,7 +8,7 @@
   --background-dark: #2f1893;
   --clr-mocha: #7e685d;
   --clr-mocha-dark: rgb(90, 66, 46);
-}
+  color: #0b1220; /* darker for readability */
 
 ul{
     padding: 0rem;
@@ -19,7 +19,7 @@ ul{
  
   margin-top: 6rem;
   text-align: center;
-  font-family: DM Sans;
+  color: #333333; /* darker secondary text */
   font-size: 3.625rem;
   font-style: normal;
   font-weight: 700;
@@ -29,17 +29,28 @@ ul{
 
 .landing-site2 {
   font-family: "Playwrite VN", serif;
+.btn-call-to-action.btn-call-to-action-blue {
+  padding: 0.8rem 2rem;
+  margin: 1rem 0;
+  background: var(--clr-mocha);
+  box-shadow: 0 8px 20px rgba(126,104,93,0.14);
+  transition: box-shadow 0.18s ease-in-out, transform 0.12s ease;
+}
   margin-top: 1rem;
   text-align: center;
   font-size: 1.rem;
   font-style: normal;
+.btn-call-to-action.btn-call-to-action-blue:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 40px rgba(51,50,48,0.12);
+}
   font-weight: 700;
   line-height: 4.375rem;
   color: var(--clr-mocha);
 }
 
 body {
-  background-image: url('./assets/fondlanding.PNG');
+  background: #ffffff; /* solid white for max contrast */
   background-size: cover; /* Ajuste pour couvrir toute la fenêtre */
   background-position: center; /* Centre l'image */
   background-repeat: no-repeat; /* Empêche la répétition */
